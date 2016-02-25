@@ -82,7 +82,7 @@ RedisVoting
 
 	```text		
 	>  gradle assemble
-	>  cf push redis-jeff -m 256M -p build/libs/redisvote.war
+	>  cf push redis-<your name> -m 256M -p build/libs/redisvote.war
 	```
 
     > **IMPORTANT**: Use Redis Experimental, found in Bluemix Labs Catalog located at the bottom of the Catalog page.
