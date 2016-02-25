@@ -45,7 +45,7 @@ We will be building a simple voting application that makes use of Redis.
 4. Notice that the directory structure looks  like this
 
 ``` text
-Project Root
+RedisVoting
 |   .gitignore
 |   build.gradle
 |   README.md
@@ -118,7 +118,7 @@ Let us first examine the code and learn how we can connect to a Redis Server.
 
  1. Open the file `RedisConnector.java`
 
-	 Observe RedisConnector.java. Similar to most database systems, connecting to the Redis server also requires a driver. We will be using **Jedis** in this tutorial but there are [other drivers](http://redis.io/clients#java) that can be used with Java.
+	 Observe RedisConnector.java. Similar to most database systems, connecting to the Redis server also requires a driver. We will be using **Jedis** in this tutorial.
 
 	The information needed to connect to the Redis server are the following: **IP address, port and password**.
  
